@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="bwie.com.yuekao.tusan.Main3Activity">
+
+
+    <com.youth.banner.Banner
+        android:id="@+id/main3_banner"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"></com.youth.banner.Banner>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="点击图片查看详情步骤"/>
+
+    <TextView
+        android:id="@+id/main3_textview"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="match_parent" />
+
+</LinearLayout>
